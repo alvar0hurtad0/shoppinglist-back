@@ -1,0 +1,13 @@
+uuid: 7d64b133-aff2-49f7-a403-3d2bc2eef30f
+langcode: es
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: f6w_Pd30AyyDIoMkD4QpPMM2-I8FTEHICchFVOpjiCI
+id: comment_publish_action
+label: 'Publicar comentario'
+type: comment
+plugin: comment_publish_action
+configuration: {  }

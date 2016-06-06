@@ -1,0 +1,14 @@
+uuid: 53638e2f-3508-4178-bd32-50c00bcb5eea
+langcode: es
+status: true
+dependencies: {  }
+name: encabezado_servicio
+label: 'encabezado servicio'
+effects:
+  4405d275-e239-48e4-8900-b2e13bc52ae8:
+    uuid: 4405d275-e239-48e4-8900-b2e13bc52ae8
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 280
+      height: 260

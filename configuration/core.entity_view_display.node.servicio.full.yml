@@ -1,0 +1,38 @@
+uuid: 4e5558fe-8fc9-4e6f-a300-fa6f9112729e
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.servicio.body
+    - field.field.node.servicio.field_imagen_principal
+    - field.field.node.servicio.field_order
+    - image.style.slideshow
+    - node.type.servicio
+  module:
+    - image
+    - text
+    - user
+id: node.servicio.full
+targetEntityType: node
+bundle: servicio
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+  field_imagen_principal:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: slideshow
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden:
+  field_order: true
+  langcode: true
+  links: true

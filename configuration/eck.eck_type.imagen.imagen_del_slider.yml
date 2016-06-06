@@ -1,0 +1,9 @@
+uuid: 0b9465a7-eea6-4d0c-af00-e894e9224349
+langcode: es
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.imagen
+name: 'imagen del slider'
+type: imagen_del_slider
+description: ''

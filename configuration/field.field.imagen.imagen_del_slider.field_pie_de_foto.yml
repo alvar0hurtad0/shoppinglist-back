@@ -1,0 +1,19 @@
+uuid: 0b56bc86-a462-461c-b008-8c9252af0151
+langcode: es
+status: true
+dependencies:
+  config:
+    - eck.eck_type.imagen.imagen_del_slider
+    - field.storage.imagen.field_pie_de_foto
+id: imagen.imagen_del_slider.field_pie_de_foto
+field_name: field_pie_de_foto
+entity_type: imagen
+bundle: imagen_del_slider
+label: 'pie de foto'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

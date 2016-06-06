@@ -1,0 +1,11 @@
+uuid: 6e8ed86f-a9a9-4b6e-8600-f00acd938ea5
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.galeria_de_imagenes
+id: node.galeria_de_imagenes
+target_entity_type_id: node
+target_bundle: galeria_de_imagenes
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,12 @@
+uuid: 02f80fd2-459a-422e-a555-85fe09268bbd
+langcode: es
+status: true
+dependencies: {  }
+id: editor
+label: editor
+weight: -8
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'view the administration theme'
+  - 'access toolbar'

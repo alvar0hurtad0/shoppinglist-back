@@ -1,0 +1,25 @@
+uuid: b2d7c418-bd28-4e76-a100-cdc3dd02ec28
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_order
+    - node.type.servicio
+id: node.servicio.field_order
+field_name: field_order
+entity_type: node
+bundle: servicio
+label: order
+description: 'Orden en los listados, cuando más grande (ojo con los números negativos) más abajo aparecerá.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

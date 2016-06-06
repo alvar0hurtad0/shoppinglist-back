@@ -1,0 +1,31 @@
+uuid: ce347ac6-e680-4f1a-8b14-203c39673a9a
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d17b0611-867d-4e8d-bc5e-9426fe382d71'
+  module:
+    - block_content
+    - system
+  theme:
+    - zircon
+id: mapadelozalizacion
+theme: zircon
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:d17b0611-867d-4e8d-bc5e-9426fe382d71'
+settings:
+  id: 'block_content:d17b0611-867d-4e8d-bc5e-9426fe382d71'
+  label: 'Mapa de lozalización'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/contact\r\n/contact/"
+    negate: false
+    context_mapping: {  }

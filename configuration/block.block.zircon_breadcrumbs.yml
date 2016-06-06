@@ -1,0 +1,22 @@
+uuid: 4787d449-b659-4612-b843-6716b3c13d38
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zircon
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: zircon_breadcrumbs
+theme: zircon
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Enlaces de ayuda a la navegación'
+  provider: system
+  label_display: '0'
+visibility: {  }

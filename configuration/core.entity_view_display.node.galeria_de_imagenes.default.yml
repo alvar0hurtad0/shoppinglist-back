@@ -1,0 +1,30 @@
+uuid: 5c45db14-7674-4327-842e-466583327053
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.galeria_de_imagenes.field_imagen_principal
+    - image.style.medium
+    - node.type.galeria_de_imagenes
+  module:
+    - image
+    - user
+id: node.galeria_de_imagenes.default
+targetEntityType: node
+bundle: galeria_de_imagenes
+mode: default
+content:
+  field_imagen_principal:
+    weight: 101
+    label: above
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

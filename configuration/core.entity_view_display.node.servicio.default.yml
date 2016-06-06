@@ -1,0 +1,39 @@
+uuid: 04b92b85-d930-46d0-ab61-97b66e0de977
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.servicio.body
+    - field.field.node.servicio.field_imagen_principal
+    - field.field.node.servicio.field_order
+    - node.type.servicio
+  module:
+    - image
+    - text
+    - user
+id: node.servicio.default
+targetEntityType: node
+bundle: servicio
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+  field_imagen_principal:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_order: true
+  langcode: true

@@ -1,0 +1,18 @@
+uuid: 2024261e-5071-4108-9702-026bda87cc75
+langcode: es
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+id: contact_message.feedback.default
+targetEntityType: contact_message
+bundle: feedback
+mode: default
+content:
+  message:
+    type: basic_string
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
