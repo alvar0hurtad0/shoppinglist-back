@@ -19,4 +19,4 @@ Run `docker-compose up`
 open your browser and go to:
 http://localhost/core/install.php
 
-Install the custom_profile profile
+Install the custom_profile profile.
