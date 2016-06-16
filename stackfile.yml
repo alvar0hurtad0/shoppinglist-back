@@ -1,35 +1,37 @@
-mysql:
-    image: mysql:5.7
-    environment:
-      MYSQL_USER: drupal
-      MYSQL_PASSWORD: drupal
-      MYSQL_DATABASE: local_drupal
-      MYSQL_ROOT_PASSWORD: 'root'
-      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
-    expose:
-      - "3306"
-    restart: always
-    volumes_from:
-      - databasefiles
-
 databasefiles:
-    image: busybox
-    volumes:
-      - /var/lib/mysql
-
-webfiles:
-    image: busybox
-    volumes:
-      - /var/www/html/sites/default/files
-      - /var/www/html/sites/default/files/translations
-
+  image: 'busybox:latest'
+  volumes:
+    - /var/lib/mysql
+mysql:
+  environment:
+    - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+    - MYSQL_DATABASE=local_drupal
+    - MYSQL_PASSWORD=drupal
+    - MYSQL_ROOT_PASSWORD=root
+    - MYSQL_USER=drupal
+  expose:
+    - '3306'
+  image: 'mysql:5.7'
+  restart: always
+  volumes_from:
+    - databasefiles
 web:
-    image: alvar0hurtad0/docker-drupal_starter_kit
-    ports:
-      - "80:80"
-      - "222:222"
-    volumes_from:
-      - webfiles
-    links:
-      - mysql:mysql
-    working_dir: /var/www/html
+  autoredeploy: true
+  environment:
+    - 'VIRTUAL_HOST=www.clinicamedea.com,clinicamedea.com'
+  expose:
+    - '80'
+  image: 'alvar0hurtad0/medea-web:latest'
+  links:
+    - mysql
+  ports:
+    - '221:222'
+  volumes_from:
+    - webfiles
+  working_dir: /var/www/html
+webfiles:
+  image: 'busybox:latest'
+  volumes:
+    - /var/www/html/sites/default/files
+    - /var/www/html/sites/default/files/translations
+

@@ -2,7 +2,7 @@
 
 chown drupaluser:www-data /var/www/html/ -R
 chown www-data:www-data /var/www/html/sites/default -R
-drush config-set system.site uuid medea-website
+drush config-set system.site uuid shoppinglist-back
 /etc/init.d/ssh start
 apachectl start
 drush cim

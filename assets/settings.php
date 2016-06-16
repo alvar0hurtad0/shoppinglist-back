@@ -723,4 +723,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'custom_profile';
-$config_directories['sync'] = '../configuration/';
+$config_directories['sync'] = 'profiles/custom_profile/config/optional';
