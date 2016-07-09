@@ -171,7 +171,7 @@ class EntityAliasTypeBase extends ContextAwarePluginBase implements AliasTypeInt
    * @param array $ids
    *   An array of entity IDs IDs.
    * @param array $options
-   *   An optional array of additional options.
+   *   An sync array of additional options.
    */
   protected function bulkUpdate(array $ids, array $options = array()) {
     $options += array('message' => FALSE);

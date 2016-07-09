@@ -755,7 +755,7 @@ class SMTP {
   }
 
   /**
-   * This is an optional command for SMTP that this class does not
+   * This is an sync command for SMTP that this class does not
    * support. This method is here to make the RFC821 Definition
    * complete for this class and __may__ be implimented in the future
    *

@@ -273,21 +273,21 @@ class PHPMailer {
 
   /**
    * Used with DKIM DNS Resource Record
-   * optional, in format of email address 'you@yourdomain.com'
+   * sync, in format of email address 'you@yourdomain.com'
    * @var string
    */
   public $DKIM_identity   = '';
 
   /**
    * Used with DKIM DNS Resource Record
-   * optional, in format of email address 'you@yourdomain.com'
+   * sync, in format of email address 'you@yourdomain.com'
    * @var string
    */
   public $DKIM_domain     = '';
 
   /**
    * Used with DKIM DNS Resource Record
-   * optional, in format of email address 'you@yourdomain.com'
+   * sync, in format of email address 'you@yourdomain.com'
    * @var string
    */
   public $DKIM_private    = '';

@@ -126,7 +126,7 @@ class PathautoPattern extends ConfigEntityBase implements PathautoPatternInterfa
   /**
    * @var array[]
    *   Keys are context tokens, and values are arrays with the following keys:
-   *   - label (string|null, optional): The human-readable label of this
+   *   - label (string|null, sync): The human-readable label of this
    *     relationship.
    */
   protected $relationships = [];

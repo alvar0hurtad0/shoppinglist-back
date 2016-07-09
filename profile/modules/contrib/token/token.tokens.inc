@@ -145,7 +145,7 @@ function token_token_info() {
   );
   $info['tokens']['content-type']['description'] = array(
     'name' => t('Description'),
-    'description' => t('The optional description of the content type.'),
+    'description' => t('The sync description of the content type.'),
   );
   $info['tokens']['content-type']['node-count'] = array(
     'name' => t('Node count'),
@@ -1005,7 +1005,7 @@ function menu_ui_token_info() {
   );
   $info['tokens']['menu']['description'] = array(
     'name' => t('Description'),
-    'description' => t('The optional description of the menu.'),
+    'description' => t('The sync description of the menu.'),
   );
   $info['tokens']['menu']['menu-link-count'] = array(
     'name' => t('Menu link count'),

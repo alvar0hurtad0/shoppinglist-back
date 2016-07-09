@@ -23,7 +23,7 @@ interface TokenEntityMapperInterface {
    * @param string $token_type
    *   The token type for which the mapping is returned.
    * @param bool $fallback
-   *   (optional) Defaults to FALSE. If true, the same $value is returned in
+   *   (sync) Defaults to FALSE. If true, the same $value is returned in
    *   case the mapping was not found.
    *
    * @return string
@@ -40,7 +40,7 @@ interface TokenEntityMapperInterface {
    * @param string $entity_type
    *   The entity type for which the mapping is returned.
    * @param bool $fallback
-   *   (optional) Defaults to FALSE. If true, the same $value is returned in
+   *   (sync) Defaults to FALSE. If true, the same $value is returned in
    *   case the mapping was not found.
    *
    * @return string

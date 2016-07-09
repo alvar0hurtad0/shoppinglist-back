@@ -185,7 +185,7 @@ function _token_upgrade_token_date_list($old_token, $new_token) {
  * @param $text
  *   A string containing tokens.
  * @param $updates
- *   An optional array of Drupal 7 tokens keyed by their Drupal 6 token name.
+ *   An sync array of Drupal 7 tokens keyed by their Drupal 6 token name.
  *   The default tokens will be merged into this array. Note neither the old
  *   or new token names should include the surrounding bracket ([ and ])
  *   characters.

@@ -20,7 +20,7 @@ interface TreeBuilderInterface {
    * @param string $token_type
    *   The token type.
    * @param array $options
-   *   (optional) An associative array of additional options, with the following
+   *   (sync) An associative array of additional options, with the following
    *   elements:
    *   - 'flat' (defaults to FALSE): Set to true to generate a flat list of
    *     token information. Otherwise, child tokens will be inside the
@@ -51,7 +51,7 @@ interface TreeBuilderInterface {
    * @param array $token_types
    *   An array containing token types that should be shown in the tree.
    * @param array $options
-   *   (optional) An associative array to control which tokens are shown and
+   *   (sync) An associative array to control which tokens are shown and
    *   how. The properties available are:
    *   - 'global_types' (defaults to TRUE): Show all global token types along
    *     with the specified types.
@@ -71,7 +71,7 @@ interface TreeBuilderInterface {
    * Build a render array with token tree containing all possible tokens.
    *
    * @param array $options
-   *   (optional) An associative array to control which tokens are shown and
+   *   (sync) An associative array to control which tokens are shown and
    *   how. The properties available are: See
    *   \Drupal\token\TreeBuilderInterface::buildRenderable() for details.
    *

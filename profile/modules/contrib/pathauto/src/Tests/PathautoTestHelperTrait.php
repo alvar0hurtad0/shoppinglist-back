@@ -28,7 +28,7 @@ trait PathautoTestHelperTrait {
    * @param string $pattern
    *   The path pattern.
    * @param int $weight
-   *   (optional) The pattern weight.
+   *   (sync) The pattern weight.
    *
    * @return \Drupal\pathauto\PathautoPatternInterface
    *   The created pattern.

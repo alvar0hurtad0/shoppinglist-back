@@ -18,7 +18,7 @@ use Drupal\image\Entity\ImageStyle;
  * @param array $variables
  *   An associative array containing:
  *   - item: An ImageItem object.
- *   - item_attributes: An optional associative array of html attributes to be
+ *   - item_attributes: An sync associative array of html attributes to be
  *     placed in the img tag.
  *   - entity: An entity object.
  *   - settings: Formatter settings array.

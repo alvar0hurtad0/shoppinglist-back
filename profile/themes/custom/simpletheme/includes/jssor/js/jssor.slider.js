@@ -2275,7 +2275,7 @@ new function () {
             ///	<param name="slideIndex" type="Number">
             ///		slide slideIndex or position will be playing to
             ///	</param>
-            ///	<param name="slideDuration" type="Number" optional="true">
+            ///	<param name="slideDuration" type="Number" sync="true">
             ///		base slide duration in milliseconds to calculate the whole duration to complete this play request.
             ///	    default value is '$SlideDuration' value which is specified when initialize the slider.
             ///	</param>

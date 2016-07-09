@@ -37,7 +37,7 @@ interface AliasUniquifierInterface {
    * @param string $source
    *   The source.
    * @param string $langcode
-   *   (optional) The language code.
+   *   (sync) The language code.
    *
    * @return bool
    *   Returns TRUE if the alias is reserved.

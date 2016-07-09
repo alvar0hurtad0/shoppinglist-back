@@ -64,7 +64,7 @@ interface AliasCleanerInterface {
    * @param string $string
    *   A string to clean.
    * @param array $options
-   *   (optional) A keyed array of settings and flags to control the Pathauto
+   *   (sync) A keyed array of settings and flags to control the Pathauto
    *   clean string replacement process. Supported options are:
    *   - langcode: A language code to be used when translating strings.
    *

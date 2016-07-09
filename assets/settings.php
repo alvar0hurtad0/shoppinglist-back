@@ -11,7 +11,7 @@
  * security risk.
  *
  * In order to use the selection rules below the multisite aliasing file named
- * sites/sites.php must be present. Its optional settings will be loaded, and
+ * sites/sites.php must be present. Its sync settings will be loaded, and
  * the aliases in the array $sites will override the default directory rules
  * below. See sites/example.sites.php for more information about aliases.
  *
@@ -723,4 +723,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'custom_profile';
-$config_directories['sync'] = 'profiles/custom_profile/config/optional';
+$config_directories['sync'] = 'profiles/custom_profile/config/sync';

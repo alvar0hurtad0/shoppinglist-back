@@ -1,3 +1,9 @@
+## shoppinglist backend
+This a (very fast build) drupal that can be used as backend for the angular2 app
+https://github.com/alvar0hurtad0/shoppinglist-front
+
+It exposes an entity list as a REST service.
+
 ## Prerequisites
 
 Install [Docker](https://www.docker.com/) on your system.

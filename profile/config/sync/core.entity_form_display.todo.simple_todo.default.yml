@@ -1,0 +1,26 @@
+uuid: 8c403c85-75ea-4606-a2dd-0054eb2ab8df
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.todo.simple_todo
+    - field.field.todo.simple_todo.field_status
+id: todo.simple_todo.default
+targetEntityType: todo
+bundle: simple_todo
+mode: default
+content:
+  field_status:
+    weight: 3
+    settings:
+      display_label: false
+    third_party_settings: {  }
+    type: boolean_checkbox
+  title:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -63,7 +63,7 @@ class SMTPConfigForm extends ConfigFormBase {
       '#type' => 'textfield',
       '#title' => t('SMTP backup server'),
       '#default_value' => $config->get('smtp_hostbackup'),
-      '#description' => t('The address of your outgoing SMTP backup server. If the primary server can\'t be found this one will be tried. This is optional.'),
+      '#description' => t('The address of your outgoing SMTP backup server. If the primary server can\'t be found this one will be tried. This is sync.'),
     );
     $form['server']['smtp_port'] = array(
       '#type' => 'number',

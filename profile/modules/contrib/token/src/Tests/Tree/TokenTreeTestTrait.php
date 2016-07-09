@@ -31,9 +31,9 @@ trait TokenTreeTestTrait {
    * @param string $token_group
    *   The name of the token group.
    * @param string $message
-   *   (optional) A message to display with the assertion.
+   *   (sync) A message to display with the assertion.
    * @param string $group
-   *   (optional) The group this message is in, which is displayed in a column
+   *   (sync) The group this message is in, which is displayed in a column
    *   in test output.
    */
   protected function assertTokenGroup($token_group, $message = '', $group = 'Other') {
@@ -52,11 +52,11 @@ trait TokenTreeTestTrait {
    * @param $token
    *   The token name with the surrounding square brackets [].
    * @param string $parent
-   *   (optional) The parent CSS identifier of this token.
+   *   (sync) The parent CSS identifier of this token.
    * @param string $message
-   *   (optional) A message to display with the assertion.
+   *   (sync) A message to display with the assertion.
    * @param string $group
-   *   (optional) The group this message is in, which is displayed in a column
+   *   (sync) The group this message is in, which is displayed in a column
    *   in test output.
    */
   protected function assertTokenInTree($token, $parent = '', $message = '', $group = 'Other') {
@@ -75,11 +75,11 @@ trait TokenTreeTestTrait {
    * @param $token
    *   The token name with the surrounding square brackets [].
    * @param string $parent
-   *   (optional) The parent CSS identifier of this token.
+   *   (sync) The parent CSS identifier of this token.
    * @param string $message
-   *   (optional) A message to display with the assertion.
+   *   (sync) A message to display with the assertion.
    * @param string $group
-   *   (optional) The group this message is in, which is displayed in a column
+   *   (sync) The group this message is in, which is displayed in a column
    *   in test output.
    */
   protected function assertTokenNotInTree($token, $parent = '', $message = '', $group = 'Other') {
@@ -98,7 +98,7 @@ trait TokenTreeTestTrait {
    * @param $token
    *   The token name with the surrounding square brackets [].
    * @param string $parent
-   *   (optional) The parent CSS identifier of this token.
+   *   (sync) The parent CSS identifier of this token.
    *
    * @return string
    *   The xpath to check for the token and parent.

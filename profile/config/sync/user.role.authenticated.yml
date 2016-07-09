@@ -1,0 +1,19 @@
+uuid: 78b36a1b-4a96-44d6-af10-16e50ab9ca1e
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: EmGetxBWdJPbwjmhfqhna0LiL01RWYygkmfMOAq-utg
+id: authenticated
+label: 'Usuario autenticado'
+weight: -9
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use text format basic_html'
+  - 'access comments'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'access site-wide contact form'
+  - 'access shortcuts'
+  - 'search content'

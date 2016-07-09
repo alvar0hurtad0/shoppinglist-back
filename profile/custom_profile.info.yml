@@ -38,6 +38,8 @@ dependencies:
   - views_ui
   - tour
   - automated_cron
+  - token
+  - metatag
 themes:
   - simpletheme
   - seven

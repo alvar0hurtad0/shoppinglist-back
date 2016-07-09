@@ -1,0 +1,9 @@
+uuid: f29c4585-8035-4763-b1f7-58d811234b99
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.todo
+name: simple_todo
+type: simple_todo
+description: ''

@@ -1,0 +1,22 @@
+uuid: e78aca2c-ada3-417e-a700-a8d717c2a3cc
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+_core:
+  default_config_hash: zamTvrMN2VLTs5Bc9BlH4mEsotXY1RDFVit_enwQuT0
+id: seven_breadcrumbs
+theme: seven
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Enlaces de ayuda a la navegación'
+  provider: system
+  label_display: '0'
+visibility: {  }

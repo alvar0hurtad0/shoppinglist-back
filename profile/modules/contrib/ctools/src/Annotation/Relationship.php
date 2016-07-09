@@ -50,7 +50,7 @@ class Relationship extends Plugin {
   public $property_name;
 
   /**
-   * The array of contexts requires or optional for this plugin.
+   * The array of contexts requires or sync for this plugin.
    *
    * @var \Drupal\Core\Plugin\Context\ContextInterface[]
    */

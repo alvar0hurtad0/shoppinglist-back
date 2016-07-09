@@ -39,7 +39,7 @@ class EckEntityCreateAccessCheck implements AccessInterface {
    * @param EckEntityTypeInterface $eck_entity_type
    *   The entity type.
    * @param string $eck_entity_bundle
-   *   (optional) The entity type bundle.
+   *   (sync) The entity type bundle.
    *
    * @return bool|AccessResult|\Drupal\Core\Access\AccessResultInterface
    *   A \Drupal\Core\Access\AccessInterface constant value.

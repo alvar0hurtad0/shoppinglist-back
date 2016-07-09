@@ -18,7 +18,7 @@ interface MessengerInterface {
    * @param string $message
    *   The message to add.
    * @param string $op
-   *   (optional) The operation being performed.
+   *   (sync) The operation being performed.
    */
   public function addMessage($message, $op = NULL);
 
